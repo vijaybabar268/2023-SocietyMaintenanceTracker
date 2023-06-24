@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Projects\\SMT\\API\\API.csproj": {}
+    "E:\\Projects\\SMT\\api\\API.csproj": {}
   },
   "projects": {
-    "E:\\Projects\\SMT\\API\\API.csproj": {
+    "E:\\Projects\\SMT\\api\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Projects\\SMT\\API\\API.csproj",
+        "projectUniqueName": "E:\\Projects\\SMT\\api\\API.csproj",
         "projectName": "API",
-        "projectPath": "E:\\Projects\\SMT\\API\\API.csproj",
+        "projectPath": "E:\\Projects\\SMT\\api\\API.csproj",
         "packagesPath": "C:\\Users\\babar\\.nuget\\packages\\",
-        "outputPath": "E:\\Projects\\SMT\\API\\obj\\",
+        "outputPath": "E:\\Projects\\SMT\\api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\babar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -37,13 +37,9 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.2, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

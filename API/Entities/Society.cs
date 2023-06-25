@@ -4,5 +4,11 @@ namespace API.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
+
+        public Society(int id, string name)
+        {
+            Id = id;
+            Name = name;
+        }
     }
 }

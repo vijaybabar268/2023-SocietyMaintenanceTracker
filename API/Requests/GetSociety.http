@@ -1,0 +1,3 @@
+@id=5
+
+GET http://localhost:5047/api/Societies/{{id}}

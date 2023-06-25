@@ -1,0 +1,6 @@
+POST http://localhost:5047/api/Societies
+Content-Type: application/json
+
+{
+    "name": "Test"
+}

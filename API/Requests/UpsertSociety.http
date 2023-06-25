@@ -1,0 +1,8 @@
+@id=6
+
+PUT http://localhost:5047/api/Societies/{{id}}
+Content-Type: application/json
+
+{
+    "name": "Sai Pooja Chs Ltd"
+}

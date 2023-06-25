@@ -1,4 +1,5 @@
 using API.Data;
+using API.Services;
 using Microsoft.EntityFrameworkCore;
 
 public class Porgram
@@ -14,6 +15,7 @@ public class Porgram
         {
             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
         });
+        builder.Services.AddScoped<ISocietyService, SocietyService>();
 
         // Configure the HTTP request pipeline.
         var app = builder.Build();        
